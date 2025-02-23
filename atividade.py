@@ -19,7 +19,7 @@ def procurar_numero(num):
     if numero_verificar in minha_lista:
         return print('O número está na lista')
     else:
-        return print(f'O número {numero_verificar} não está na lista')
+        return print('O número não está na lista')
 
 procurar_numero(numero_verificar)
 
